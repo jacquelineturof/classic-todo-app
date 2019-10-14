@@ -1,0 +1,54 @@
+.Input {
+    width: 60%;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.Label {
+    font-weight: bold;
+    display: block;
+}
+
+.InputElement {
+    outline: none;
+    border: 1px solid #ccc;
+    background-color: white;
+    font: inherit;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    height: 5.5vh;
+    text-align: center;
+    border-radius: .3rem;
+}
+
+.Icon_Container {
+    margin: 0;
+    background-color: #ccc;
+    height: 5.5vh;
+    width: 8vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.Input_Icon {
+   font-size: 2rem;
+}
+
+.InputElement:focus {
+    outline: none;
+    background-color: #ccc;
+}
+
+.Invalid {
+    border: 1px solid red;
+    background-color: #FDA49A;
+}
+
+@media only screen and (max-width: 1100px) {
+    .InputElement {
+        height: 4vh;
+    }
+  }

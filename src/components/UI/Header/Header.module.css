@@ -1,0 +1,19 @@
+.Home_Header {
+    width: 70%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Home_Heading {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.Home_Tag {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}

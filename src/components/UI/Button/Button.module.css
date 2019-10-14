@@ -1,0 +1,25 @@
+.Request_Info_Button {
+    background-color: #60992D;
+    width: 20%;
+    border-radius: .3rem;
+    outline: none;
+    border: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: .4s all;
+    box-sizing: border-box;
+}
+
+.Request_Info_Button:hover {
+    background-color: #467021;
+}
+
+@media only screen and (max-width: 700px) {
+    .Request_Info_Button {
+      width: 30%;
+      font-size: .7rem;
+    }
+  }
