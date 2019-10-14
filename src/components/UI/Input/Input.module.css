@@ -1,6 +1,7 @@
 .Input {
-    width: 60%;
+    width: 90%;
     display: flex;
+    flex-direction: column;
     box-sizing: border-box;
 }
 
@@ -52,3 +53,8 @@
         height: 4vh;
     }
   }
+
+.Label {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}

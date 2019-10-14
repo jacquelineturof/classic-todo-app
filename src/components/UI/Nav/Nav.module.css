@@ -14,110 +14,25 @@
     justify-content: center;
 }
 
-.Nav_Links,
-.Nav_Links_Auth {
-    height: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.Nav_Links_Auth {
-    width: 80%;
-}
-
-.Nav_Links {
-    width: 40%;
-    justify-content: space-around;
-}
-
-.Nav_Links_Auth_Main {
-    width: 60%;
-    display: flex;
-    justify-content: space-between;
-}
-
-.Nav_Links_Auth_Highlighted {
-    width: 30%;
-    display: flex;
-    justify-content: space-around;
-}
-
 .Nav_Icon {
     color: #60992D;
     font-size: 3rem;
 }
 
-.Nav_Link,
-.Nav_Link_Auth {
-    text-decoration: none;
-    color: black;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.Nav_Link {
-    font-weight: 900;
-}
-
-.Nav_Link_Auth {
-    transition: all .6s;
-}
-
-.Nav_Link_Auth:hover {
-    transform: scale(1.2);
-}
-
-.Nav_Learn_More,
-.Nav_Link_Auth_Contact,
-.Nav_Link_Auth_Logout {
-    padding: .6rem;
-    border-radius: .3rem;
-    color: white;
-    transition: all .6s;
-}
-
-.Nav_Learn_More {
-    background-color: #60992D;
-}
-
-.Nav_Link_Auth_Contact {
-    background-color: #3B3355;
-}
-
-.Nav_Link_Auth_Logout {
-    background-color:#8B0000;
-}
-
-.Nav_Learn_More:hover {
-    background-color: #467021;
+.Nav_Menu_Button {
+    display: none;
 }
 
 @media only screen and (max-width: 900px) {
-    .Nav_Links {
-        width: 65%;
-    }
-
-    .Nav_Link {
-        text-align: center;
-        font-size: .8rem;
-    }
-
     .Nav_Brand {
         font-size: 2.5rem;
     }
 }
 
 @media only screen and (max-width: 600px) {
-    .Nav_Links {
-        width: 70%;
-    }
-
-    .Nav_Link {
-        font-weight: 400;
-    }
-
     .Nav_Brand {
         font-size: 1rem;
         width: 20%;
     }
 }
+

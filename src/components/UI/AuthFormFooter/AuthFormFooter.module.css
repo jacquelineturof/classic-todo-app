@@ -1,0 +1,15 @@
+.Auth_Form_Footer {
+    height: 10vh;
+    width: 80%;
+}
+
+.Auth_Form_Footer,
+.Footer_Social_Media {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}   
+
+.Footer_Social_Media {
+    width: 50%;
+}
